@@ -1655,9 +1655,18 @@
 	em, i {
 		font-style: italic;
 	}
-
+/* changed here reference */
 	p {
 		margin: 0 0 2rem 0;
+		color: black;
+	}
+
+	.black-text {
+		color: black;
+	}	
+
+	.shaded-background {
+		color: white; 
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2370,6 +2379,7 @@
 
 		ul li {
 			padding-left: 0.5rem;
+			padding-bottom: 0.75rem;
 		}
 
 		ul.alt {
@@ -4228,3 +4238,7 @@
 			}
 
 		}
+/* my added stuff */
+#wordpress {
+	padding-top: 5%;
+  }	
