@@ -1712,6 +1712,8 @@
 
 	h4 {
 		font-size: 1.1rem;
+		/** comment: I added the text-decoration line below **/
+		text-decoration: underline;
 	}
 
 	h5 {
