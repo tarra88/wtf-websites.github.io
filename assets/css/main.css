@@ -2595,6 +2595,10 @@
 		width: 100%;
 	}
 
+	table.colright td:nth-child(2) {
+		text-align: right;
+	  }
+
 		table tbody tr {
 			border: solid 1px;
 			border-left: 0;
@@ -2604,6 +2608,10 @@
 		table td {
 			padding: 0.75rem 0.75rem;
 		}
+
+		.black-text {
+			color: black;
+		}			
 
 		table th {
 			font-size: 0.9rem;
