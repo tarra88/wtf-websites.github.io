@@ -2620,6 +2620,13 @@
 			text-align: left;
 		}
 
+		table th.colright {
+			font-size: 0.9rem;
+			font-weight: 400;
+			padding: 0 0.75rem 0.75rem 0.75rem;
+			text-align: right;			
+		}
+
 		table thead {
 			border-bottom: solid 2px;
 		}
